@@ -88,11 +88,9 @@ Bundle 'git://github.com/itspriddle/vim-jquery.git'
 Bundle 'git://github.com/heavenshell/vim-jsdoc.git'
 
 " PHP
-Bundle 'git://github.com/2072/PHP-Indenting-for-VIm.git'
-Bundle 'git://github.com/brookhong/DBGPavim.git'
-
-" Docs
-Bundle 'mikehaertl/yii-api-vim'
+Plugin 'StanAngeloff/php.vim'
+Plugin 'git://github.com/2072/PHP-Indenting-for-VIm.git'
+Plugin 'git://github.com/brookhong/DBGPavim.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
